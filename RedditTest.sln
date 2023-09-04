@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditTestAPI", "API\RedditTestAPI\RedditTestAPI.csproj", "{B4CCDB8D-819B-4EFE-8208-CBB53EAC641E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC3D2B80-0626-44BF-B8BB-946A287920BC} = {AC3D2B80-0626-44BF-B8BB-946A287920BC}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditTestAppCore", "API\RedditTestAppCore\RedditTestAppCore.csproj", "{AC3D2B80-0626-44BF-B8BB-946A287920BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4235C696-BE54-4912-B9A5-951714DD0F4A} = {4235C696-BE54-4912-B9A5-951714DD0F4A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditTestData", "API\RedditTestData\RedditTestData.csproj", "{4235C696-BE54-4912-B9A5-951714DD0F4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditTestConsumerWorkerService", "RedditTestConsumerWorkerService\RedditTestConsumerWorkerService.csproj", "{D2772314-35AE-44C6-9A75-F3B9EF014FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthTokenRetriever", "AuthTokenRetriever\AuthTokenRetriever.csproj", "{E329DAF5-4E15-4812-8F29-F8A83E9BA78E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4CCDB8D-819B-4EFE-8208-CBB53EAC641E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CCDB8D-819B-4EFE-8208-CBB53EAC641E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CCDB8D-819B-4EFE-8208-CBB53EAC641E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CCDB8D-819B-4EFE-8208-CBB53EAC641E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3D2B80-0626-44BF-B8BB-946A287920BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3D2B80-0626-44BF-B8BB-946A287920BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3D2B80-0626-44BF-B8BB-946A287920BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3D2B80-0626-44BF-B8BB-946A287920BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4235C696-BE54-4912-B9A5-951714DD0F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4235C696-BE54-4912-B9A5-951714DD0F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4235C696-BE54-4912-B9A5-951714DD0F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4235C696-BE54-4912-B9A5-951714DD0F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2772314-35AE-44C6-9A75-F3B9EF014FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2772314-35AE-44C6-9A75-F3B9EF014FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2772314-35AE-44C6-9A75-F3B9EF014FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2772314-35AE-44C6-9A75-F3B9EF014FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E329DAF5-4E15-4812-8F29-F8A83E9BA78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E329DAF5-4E15-4812-8F29-F8A83E9BA78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E329DAF5-4E15-4812-8F29-F8A83E9BA78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E329DAF5-4E15-4812-8F29-F8A83E9BA78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C0DF8B2-B784-4521-AFFF-3E6C475173ED}
+	EndGlobalSection
+EndGlobal
